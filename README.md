@@ -1,10 +1,10 @@
 # Attempting Project Euler
 
-- [x] Problem 1 : Correct in 0.038376 ms
-- [x] Problem 2 : Correct in 0.038092 ms
-- [x] Problem 3 : Correct in 0.041787 ms
-- [ ] Problem 4 : Not Attempted
-- [ ] Problem 5 : Not Attempted
+- [x] Problem 1 : Correct in 0.041787 ms
+- [x] Problem 2 : Correct in 0.041219 ms
+- [x] Problem 3 : Correct in 0.039513 ms
+- [x] Problem 4 : Correct in 0.038660 ms
+- [ ] Problem 5 : Incorrect Answer
 - [ ] Problem 6 : Not Attempted
 - [ ] Problem 7 : Not Attempted
 - [ ] Problem 8 : Not Attempted
