@@ -14,7 +14,7 @@ with open('answers.txt', 'r') as f:
 setup = 'import problems as p'
 with open('README.md', 'w') as f:
     f.write('# Attempting Project Euler\n\n')
-    for i in range(1, 477):
+    for i in range(1, 51):
         try:
             problem = getattr(problems, 'problem_%d' % i)
             assert answers[i - 1] == str(problem())
