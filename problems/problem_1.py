@@ -6,5 +6,10 @@ def find_sum(n):
     """
     return sum(i for i in range(n) if i % 3 == 0 or i % 5 == 0)
 
+
+def problem_1(n=1000):
+    return find_sum(n)
+
+
 if __name__ == '__main__':
-    print find_sum(1000)
+    print problem_1()

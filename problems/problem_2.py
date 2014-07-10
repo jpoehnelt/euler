@@ -17,5 +17,8 @@ def all_fibs(n):
 def sum_even_numbers(fib_list):
     return sum(i for i in fib_list if i % 2 == 0)
 
+def problem_2(n=4000000):
+    return sum_even_numbers(all_fibs(n))
+
 if __name__ == "__main__":
-    print sum_even_numbers(all_fibs(4000000))
+    print problem_2()
