@@ -1,3 +1,3 @@
 # Attempting Project Euler
-
-- [x] (Problem 1)[https://projecteuler.net/problem=1]
+- [x] Problem 1
+- [ ] Problem 2
