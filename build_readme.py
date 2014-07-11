@@ -4,7 +4,9 @@ import problems
 # get answers
 answers = []
 with open('answers.txt', 'r') as f:
-    for line in f.readlines():
+    for i, line in enumerate(f.readlines()):
+        if i == 4:
+            continue
         try:
             answers.append(line.split(' ')[1].strip())
         except IndexError:

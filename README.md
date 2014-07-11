@@ -2,9 +2,9 @@
 
 - [x] Problem 1 : Correct in 0.041787 ms
 - [x] Problem 2 : Correct in 0.041219 ms
-- [x] Problem 3 : Correct in 0.039513 ms
+- [x] Problem 3 : Correct in 0.039229 ms
 - [x] Problem 4 : Correct in 0.038660 ms
-- [ ] Problem 5 : Incorrect Answer
+- [x] Problem 5 : Correct in 0.038092 ms
 - [ ] Problem 6 : Not Attempted
 - [ ] Problem 7 : Not Attempted
 - [ ] Problem 8 : Not Attempted
