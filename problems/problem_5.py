@@ -1,11 +1,20 @@
-def problem_5(n=100):
-    sum_of_nums = 0
-    sum_of_squares = 0
-    for i in range(1,n+1):
-        sum_of_nums += i
-        sum_of_squares += i**2
-    diff = abs(sum_of_squares - sum_of_nums**2)
-    return diff
+def gcd(a, b):
+    """Return greatest common divisor using Euclid's Algorithm."""
+    while b:
+        a, b = b, a % b
+    return a
+
+
+def lcm(a, b):
+    """Return lowest common multiple."""
+    return a * b // gcd(a, b)
+
+
+def problem_5():
+    n = 2
+    for i in xrange(3, 21):
+        n = lcm(i, n)
+    return n
 
 
 if __name__ == "__main__":

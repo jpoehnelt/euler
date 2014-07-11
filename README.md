@@ -1,11 +1,11 @@
 # Attempting Project Euler
 
-- [x] Problem 1 : Correct in 0.038376 ms
-- [x] Problem 2 : Correct in 0.040366 ms
-- [x] Problem 3 : Correct in 0.039229 ms
-- [x] Problem 4 : Correct in 0.038660 ms
-- [ ] Problem 5 : Incorrect Answer
-- [x] Problem 6 : Correct in 0.038092 ms
+- [x] Problem 1 : Correct in 0.001421 ms
+- [x] Problem 2 : Correct in 0.001421 ms
+- [x] Problem 3 : Correct in 0.001990 ms
+- [x] Problem 4 : Correct in 0.001706 ms
+- [x] Problem 5 : Correct in 0.001137 ms
+- [x] Problem 6 : Correct in 0.001421 ms
 - [ ] Problem 7 : Not Attempted
 - [ ] Problem 8 : Not Attempted
 - [ ] Problem 9 : Not Attempted

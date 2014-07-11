@@ -19,7 +19,7 @@ with open('README.md', 'w') as f:
             problem = getattr(problems, 'problem_%d' % i)
             assert answers[i - 1] == str(problem())
             f.write(
-                '- [x] Problem %d : Correct in %f ms\n' % (i, timeit.timeit("p.problem_%d" % i, setup=setup, number=1000) * 1000))
+                '- [x] Problem %d : Correct in %f ms\n' % (i, timeit.timeit("p.problem_%d" % i, setup=setup, number=20)* 1000))
         except AssertionError:
             f.write('- [ ] Problem %d : Incorrect Answer\n' % i)
         except AttributeError:
